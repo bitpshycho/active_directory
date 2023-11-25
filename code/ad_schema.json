@@ -1,13 +1,23 @@
 {
-    
+    "domain" : "xyz.com",
+    "groups" : [
+        {
+            "name": "Employees"
+        }
+    ],
 
     "users" : [
         {
-            "first_name": "Sergio",
-            "last_name" : "MUñoz",
-            "password" : "whatever",
-            "user_name" : "smunoz",
-            "groups" : ["Engineering"]
+            "name": "Alice Lice",
+            "password" : "P@ssw0rd789",
+            "groups" : ["Employees"]
+                
+            
+        },
+        {
+            "name": "Bob ob",
+            "password" : "P@ssw0rdABC",
+            "groups" : ["Employees"]
                 
             
         }
