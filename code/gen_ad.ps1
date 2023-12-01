@@ -45,6 +45,6 @@ foreach($user in $json.users){
     CreateADUser $user
 }
 
-Write-Output $json.users.first_name
+
 
  
